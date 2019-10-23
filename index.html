@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>First</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Tahoma}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Tahoma}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Tahoma; min-height: 17.0px}
+  </style>
+</head>
+<body>
+<p class="p1">BASE</p>
+<p class="p2">git config --global user.name blabla - устанавливает глобально имя , которое будет отображаться при комите (для все проектов)</p>
+<p class="p2">git config --global user.email blabal@bla - устанавливает глобально почту, которая будет отображаться при комите</p>
+<p class="p2">git init- инициализирует создание локального репозитория в текущей папке. Создается скрытая папка .git в которой хранится служебная информация о локальном репозитории</p>
+<p class="p2">git status- проверяет наличие изменений в состоянии файлов проекта со времени последнего коммита. При наличии изменений выведет в консоль информацию о файлах в которых есть изменения</p>
+<p class="p2">git addсообщает гиту, что нужно отслеживать изменения, внесенные в файлы, добавляя их в<span class="Apple-converted-space">  </span>staging area</p>
+<p class="p2">git commit- создает слепок текущего состояния файлов, принято описывать комит кратким описание м изменений</p>
+<p class="p2">git log - выводит изменения в репозитории в<span class="Apple-converted-space">  </span>хронологическом порядке (список всех комитов)</p>
+<p class="p2">git checkout- переключает между ветками и выгружает их содержимое в рабочую директорию</p>
+<p class="p2">git branch- создает новую ветку</p>
+<p class="p2">git push -<span class="Apple-converted-space">  </span>отправляет все сохраненные в комитах изменения из локального репозитория на удаленный</p>
+<p class="p2">git pull - забирает последние изменения с удаленного репозитория в локальный, при условии что они уже связаны</p>
+<p class="p2">git merge- используется для слияние одну или нескольких веток в текущую</p>
+<p class="p2">git clone<span class="Apple-converted-space">  </span>клонирует удаленный репозиторий на компьютер автоматически связывая его с локальной версией.</p>
+<p class="p3"><br></p>
+<p class="p1">ADVANCED</p>
+<p class="p2">git revert - откатывает комит, путем создания нового</p>
+<p class="p2">git reset - используется для удаления файла из под версионного контроля</p>
+<p class="p2">git rebase - перемещает кометы<span class="Apple-converted-space">  </span>с одной ветки на другую</p>
+<p class="p2">git cherry-pick- используется для перенесения комитов в пределах репозитория</p>
+<p class="p2">git stash- используется для временного сохранения всех изменений, которые незаконченны, таким образом очищая рабочую директорию</p>
+<p class="p3"><br></p>
+<p class="p1">ABOUT .GITIGNORE</p>
+<p class="p2">Если создать файл .gitignore в репозитории, Git использует его, чтобы определить, какие файлы и каталоги (или целые шаблоны) игнорировать, прежде чем совершать комит. Обычно он используется, чтобы избежать передачи временных файлов из рабочего каталога (продукты компиляции, файлы настроек проекта, и т.д.)</p>
+</body>
+</html>
